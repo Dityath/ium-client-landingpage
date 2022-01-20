@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        qolbiVeryLight: "#F6EABE",
         qolbiLight: "#F6D7A7",
         qolbiDark: "#BA7C10",
       },

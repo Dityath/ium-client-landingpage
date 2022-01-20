@@ -13,6 +13,9 @@ const Section2 = () => {
             key={contain.title}
             title={contain.title}
             desc={contain.desc}
+            image={contain.image}
+            w={contain.width}
+            h={contain.height}
           />
         ))}
       </div>

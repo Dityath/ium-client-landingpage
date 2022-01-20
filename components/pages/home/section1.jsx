@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import MainTitle from "../../global/title/mainTitle";
+import Button from "../../global/button";
 
 const Section1 = () => {
   return (
@@ -8,10 +9,12 @@ const Section1 = () => {
       <div>
         <h1 className="text-3xl"></h1>
         <MainTitle>Rumah Petak Sewa Nurul Qolbi</MainTitle>
-        <p className="mt-5">Deskripsi, ayo ngontrak disini aja, eheheehe</p>
-        <button className="bg-qolbiLight uppercase rounded-lg px-4 py-2 mt-20">
-          Hubungi Kami
-        </button>
+        <p className="mt-5 max-w-lg">
+          Rumah petak sewa yang cocok bagi pekerja ataupun keluarga yang
+          menginginkan tempat tinggal sementara di Bekasi, Tambun. Tenang dan
+          nyaman, juga penuh dengan fasilitas yang dibutuhkan.
+        </p>
+        <Button className="mt-20 uppercase">Hubungi Kami</Button>
       </div>
       <div className="w-full max-w-md h-64 relative">
         <Image

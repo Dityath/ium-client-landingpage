@@ -8,8 +8,7 @@ const Navbar = () => {
 
   return (
     <header className="text-base w-screen fixed z-40 top-0 left-0 shadow-md h-14 bg-white flex justify-center font-lato">
-      <div className="max-w-6xl w-full flex justify-between items-center">
-        <div>tempat logonya</div>
+      <div className="max-w-6xl w-full flex justify-end items-center">
         <nav className="h-full">
           <ul className="flex gap-10 h-full">
             {navs.map((nav) => (
